@@ -44,7 +44,7 @@ fetchData().then((result) => {
       productBody.innerHTML += `
         <article class="product__banner">
           <img
-            src="./assets/img/banner.png"
+            src="assets/img/banner.png"
             alt="banner"
             class="card__banner"
           />
@@ -72,7 +72,7 @@ productBody.addEventListener("click", function (e) {
     <div class="details__top">
       <p>ID: ${id}</p>
       <div class="details__left-side" style="cursor:pointer;">
-        <img src="./assets/icons/close.png" alt="close icon" />
+        <img src="assets/icons/close.png" alt="close icon" />
         <p>CLOSE</p>
       </div>
     </div>
