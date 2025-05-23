@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const API = "https://brandstestowy.smallhost.pl/api/random";
 
@@ -44,7 +44,7 @@ fetchData().then((result) => {
       productBody.innerHTML += `
         <article class="product__banner">
           <img
-            src="/assets/img/banner.png"
+            src="https://raw.githubusercontent.com/Dushkaaaa/Landing_page_idM/refs/heads/master/assets/img/banner.png"
             alt="banner"
             class="card__banner"
           />
@@ -72,7 +72,7 @@ productBody.addEventListener("click", function (e) {
     <div class="details__top">
       <p>ID: ${id}</p>
       <div class="details__left-side" style="cursor:pointer;">
-        <img src="/assets/icons/close.png" alt="close icon" />
+        <img src="https://raw.githubusercontent.com/Dushkaaaa/Landing_page_idM/refs/heads/master/assets/icons/close.png" alt="close icon" />
         <p>CLOSE</p>
       </div>
     </div>
@@ -90,9 +90,9 @@ document.body.addEventListener("click", function (e) {
   }
 });
 
-const burgerMenu = document.getElementById('burgerMenu');
-const menu = document.getElementById('menu');
-const closeMenu = document.getElementById('closeMenu');
+const burgerMenu = document.getElementById("burgerMenu");
+const menu = document.getElementById("menu");
+const closeMenu = document.getElementById("closeMenu");
 
-burgerMenu.onclick = () => menu.classList.add('open');
-closeMenu.onclick = () => menu.classList.remove('open');
+burgerMenu.onclick = () => menu.classList.add("open");
+closeMenu.onclick = () => menu.classList.remove("open");
