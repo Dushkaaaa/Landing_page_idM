@@ -1,0 +1,27 @@
+@import './variables.css';
+@import './reset-style.css';
+@import './header.css';
+@import './nav.css';
+@import './featuredProduct.css';
+@import './product_list.css';
+@import './popup.css';
+@import './menu.css';
+@import './responsive.css';
+
+
+* {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding-inline: 42px;
+  }
+}
+

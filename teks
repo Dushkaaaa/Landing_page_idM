@@ -1,0 +1,22 @@
+<!-- <article class="featured__item item">
+            <div class="item__content">
+              <img
+                src="./assets/icons/favorite.svg"
+                alt="icon favorite"
+                class="item__favorite"
+              />
+
+              <div class="item__bestseller">Bestseller</div>
+
+              <img
+                src="./assets/img/product_photo_01.png"
+                alt="product photo"
+                class="item__img"
+              />
+            </div>
+
+            <div class="item__description">
+              <p class="item__info">Dark blue alpine climbing jacket</p>
+              <p class="item__price">€300,00 EUR</p>
+            </div>
+          </article> -->
